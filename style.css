@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -41,7 +43,7 @@ a {
 
 .main {
   color: #ff6b00;
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -81,6 +83,7 @@ a {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .headercontainer a {
@@ -96,22 +99,25 @@ ul {
 
 .section-title1 {
   text-align: center;
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
 }
 
-.vec-img {
+.section-title2 .vec-img {
+  padding-right: 24px;
+  padding-bottom: 30px;
   margin-bottom: 30px;
 }
 
-.lan li {
-  border: 1px solid black;
+.lan {
+  display: flex;
+  align-items: center;
+  background: #fff;
   gap: 10px;
-  width: 55px;
-  font-family: 'Inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -119,47 +125,32 @@ ul {
   text-align: center;
 }
 
-.lan {
-  display: flex;
-  gap: 10px;
-  margin-left: -32px;
+.lan li {
+  border: 1px solid #8993a4;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.lan .css {
+  width: 49px;
+}
+
+.lan .html {
+  width: 59px;
+}
+
+.lan .bootstrap {
+  width: 95px;
+}
+
+.lan .ruby {
+  width: 61px;
 }
 
 .social {
   display: flex;
   gap: 10px;
   margin-left: -40px;
-}
-
-.project-container {
-  margin-top: 20px;
-  background-size: 100%;
-  border: 1px solid black;
-  padding-top: 100px;
-  background-image: url("./images/ImgPlaceholder\(2\).svg");
-  background-repeat: no-repeat;
-}
-
-.project-container h2 {
-  padding-left: 24px;
-  padding-right: 24px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-.project-container p {
-  padding-left: 24px;
-  padding-right: 24px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
 }
 
 .btn {
@@ -186,6 +177,11 @@ ul {
 }
 
 .btn2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -210,32 +206,10 @@ ul {
   color: #1c1a19;
 }
 
-.lan1 li {
-  background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #fff;
-  text-align: center;
-  width: 60px;
-  border: 1px solid white;
-  padding: 5px 10px;
-}
-
-.lan1 {
-  margin-left: -10px;
-  display: flex;
-  gap: 10px;
-}
-
 .box3 {
-  background: black;
+  background: #1c1a19;
   padding-top: 20px;
   padding-bottom: 90px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .aboutme-container {
@@ -249,7 +223,7 @@ ul {
 }
 
 .aboutme-container h1 {
-  font-family: 'Crete round', sans-serif;
+  font-family: 'Crete round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -322,4 +296,70 @@ ul {
   display: flex;
   text-align: center;
   color: #fff;
+}
+
+.project-container {
+  background-image: url("./images/ImgPlaceholder\(2\).svg");
+  height: 386px;
+  color: #fff;
+}
+
+.project-container h2 {
+  display: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 75px;
+  width: 295px;
+  height: 81px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.project-container p {
+  width: 295px;
+  height: 87px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 24px;
+}
+
+.lan1 {
+  display: flex;
+  padding-left: 24px;
+  gap: 5px;
+  align-items: center;
+}
+
+.hh {
+  padding-top: 10px;
+  border: 1px solid;
+  background: rgba(255, 255, 255, 0.24);
+  width: 56px;
+  height: 40px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.hk {
+  padding-top: 10px;
+  border: 1px solid;
+  background: rgba(255, 255, 255, 0.24);
+  width: 70px;
+  height: 40px;
+  font-family: 'Inter'sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
 }

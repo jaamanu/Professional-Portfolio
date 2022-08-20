@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
 .header {
   background: #3c3a39;
 }
@@ -19,9 +29,14 @@
 .content {
   background: #1c1a19;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 90px;
   padding-left: 24px;
   padding-right: 24px;
+  background-image: url("./images/sideicon.svg");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  margin-bottom: 50px;
 }
 
 .main {
@@ -71,4 +86,242 @@ ul {
 .headercontainer a {
   text-decoration: none;
   color: #fff;
+}
+
+.box1 {
+  padding: 12px 24px;
+  display: grid;
+  margin-bottom: 100px;
+}
+
+.section-title1 {
+  text-align: center;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.vec-img {
+  margin-bottom: 30px;
+}
+
+.lan li {
+  border: 1px solid black;
+  gap: 10px;
+  width: 55px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.lan {
+  display: flex;
+  gap: 10px;
+  margin-left: -32px;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+  margin-left: -40px;
+
+}
+
+.project-container {
+  margin-top: 20px;
+  background-size: 100%;
+  border: 1px solid black;
+  padding-top: 100px;
+  background-image: url("./images/ImgPlaceholder\(2\).svg");
+  background-repeat: no-repeat;
+}
+
+.project-container h2 {
+  padding-left: 24px;
+  padding-right: 24px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.project-container p {
+  padding-left: 24px;
+  padding-right: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.btn {
+  text-decoration: none;
+  border: 1px solid #ff6b00;
+  background: #ff6b00;
+  padding: 8px 12px;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #ff6b00;
+}
+
+.btn:active {
+  background: #e05304;
+  color: #fff;
+}
+
+.btn:disabled {
+  background: #fff;
+  color: #1c1a19;
+}
+
+.btn2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: #ff6b00;
+  color: #fff;
+  padding: 12px 12px;
+  border: 1px solid black;
+}
+
+.btn2:hover {
+  background: #fff;
+  color: #ff6b00;
+}
+
+.btn2:active {
+  background: #e05304;
+  color: #fff;
+}
+
+.btn2:disabled {
+  background: #fff;
+  color: #1c1a19;
+}
+
+.lan1 li {
+  background: rgba(255, 255, 255, 0.24);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 60px;
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+.lan1 {
+  margin-left: -10px;
+  display: flex;
+  gap: 10px;
+}
+
+.box3 {
+  background: black;
+  padding-top: 20px;
+  padding-bottom: 90px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.aboutme-container {
+  background-size: 100px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-image: url("./images/corner.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 100px;
+}
+
+.aboutme-container h1 {
+  font-family: 'Crete Round' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+}
+
+.aboutme-container p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+}
+
+.vec1-img {
+  margin-top: 20px;
+}
+
+.btn3 {
+  text-decoration: none;
+  border: 1px solid #ff6b00;
+  background: #ff6b00;
+  padding: 8px 12px;
+  color: #fff;
+}
+
+.btn3:hover {
+  background: #fff;
+  color: #ff6b00;
+}
+
+.btn3:active {
+  background: #e05304;
+  color: #fff;
+}
+
+.btn3:disabled {
+  background: #fff;
+  color: #1c1a19;
+}
+
+.lan2 {
+  padding-top: 100px;
+  padding-right: 20px;
+  margin-left: -20px;
+  margin-bottom: -20px;
+}
+
+.head-1 {
+  font-family: 'InaiMathi', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+  padding-right: 10px;
+
+}
+
+.head-2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  justify-content: center;
+  line-height: 43px;
+  display: flex;
+  text-align: center;
+  color: #FFFFFF;
 }

@@ -129,7 +129,6 @@ ul {
   display: flex;
   gap: 10px;
   margin-left: -40px;
-
 }
 
 .project-container {
@@ -149,7 +148,7 @@ ul {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .project-container p {
@@ -160,7 +159,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .btn {
@@ -218,7 +217,7 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
   width: 60px;
   border: 1px solid white;
@@ -250,13 +249,13 @@ ul {
 }
 
 .aboutme-container h1 {
-  font-family: 'Crete Round' sans-serif;
+  font-family: 'Crete round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 .aboutme-container p {
@@ -265,7 +264,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
 
 .vec1-img {
@@ -309,9 +308,8 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
   padding-right: 10px;
-
 }
 
 .head-2 {
@@ -323,5 +321,5 @@ ul {
   line-height: 43px;
   display: flex;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }

@@ -330,6 +330,7 @@ ul {
 }
 
 .lan1 {
+  
   display: flex;
   padding-left: 24px;
   gap: 5px;
@@ -363,3 +364,66 @@ ul {
   line-height: 20px;
   text-align: center;
 }
+
+
+
+.form-container {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  justify-content: center;
+}
+
+.input-1{
+  width: 295px;
+  height: 18px;
+  padding-left: 20px;
+}
+/* .form-container div{
+justify-items: center;
+} */
+
+.head2{
+  justify-content: center;
+  text-align: center;
+  width: 327px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+}
+
+.but-1 input{
+  text-align: center;
+  padding: 8px 10px;
+  background: #ff6b00;
+}
+.but-1 {
+  text-align: center;
+}
+
+input{
+  border: none;
+}
+
+textarea {
+  width: 327px;
+  background: #FBF8F7;
+  border: none;
+}
+
+input[type="textarea"]::placeholder {
+  
+  margin-right: -20px;
+}
+
+.social-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+

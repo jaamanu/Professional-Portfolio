@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto&display=swap");
 
 body {
   margin: 0;
@@ -17,7 +17,7 @@ a {
 .headercontainer {
   padding: 12px 24px;
   height: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -43,7 +43,7 @@ a {
 
 .main {
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -52,7 +52,7 @@ a {
 }
 
 .info1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -63,7 +63,7 @@ a {
 }
 
 .info {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -99,7 +99,7 @@ ul {
 
 .section-title1 {
   text-align: center;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -150,7 +150,7 @@ ul {
 .social {
   display: flex;
   gap: 10px;
-  margin-left: -40px;
+  justify-content: flex-start;
 }
 
 .btn {
@@ -181,7 +181,7 @@ ul {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -223,7 +223,7 @@ ul {
 }
 
 .aboutme-container h1 {
-  font-family: 'Crete round', serif;
+  font-family: "Crete round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -233,7 +233,7 @@ ul {
 }
 
 .aboutme-container p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -276,7 +276,7 @@ ul {
 }
 
 .head-1 {
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -287,7 +287,7 @@ ul {
 }
 
 .head-2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -296,6 +296,10 @@ ul {
   display: flex;
   text-align: center;
   color: #fff;
+}
+
+form h2 {
+  text-align: center;
 }
 
 .project-container {
@@ -311,7 +315,7 @@ ul {
   padding-top: 75px;
   width: 295px;
   height: 81px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -321,7 +325,7 @@ ul {
 .project-container p {
   width: 295px;
   height: 87px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -342,7 +346,7 @@ ul {
   background: rgba(255, 255, 255, 0.24);
   width: 56px;
   height: 40px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -356,10 +360,82 @@ ul {
   background: rgba(255, 255, 255, 0.24);
   width: 70px;
   height: 40px;
-  font-family: 'Inter'sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  padding: 12px 24px;
+  justify-content: center;
+}
+
+.form-container h2 {
+  color: #172b4d;
+  font-size: 32px;
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.input-1 {
+  width: 295px;
+  height: 18px;
+  margin-bottom: 5%;
+  padding: 0 0 2% 20px;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.but-1 {
+  text-align: center;
+  padding: 8px 10px;
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+}
+
+input {
+  border: none;
+}
+
+textarea {
+  width: 327px;
+  background: #fbf8f7;
+  border: none;
+}
+
+.socialhandles {
+  margin-top: 100px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.linebtn {
+  height: 1px;
+  border: none;
+  background: #dfe1e6;
+  margin-top: 40px;
+  margin-bottom: -60px;
+}
+
+.socialhandles svg path {
+  fill: #505f79;
+}
+
+.trial {
+  color: red;
+}
+
+.input-1 input {
+  margin-left: -20px;
 }

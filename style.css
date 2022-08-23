@@ -298,6 +298,10 @@ ul {
   color: #fff;
 }
 
+form h2 {
+  text-align: center;
+}
+
 .project-container {
   background-image: url("./images/ImgPlaceholder\(2\).svg");
   height: 386px;
@@ -356,7 +360,7 @@ ul {
   background: rgba(255, 255, 255, 0.24);
   width: 70px;
   height: 40px;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -373,8 +377,13 @@ ul {
   justify-content: center;
 }
 
-form h2 {
-  text-align: center;
+.form-container h2 {
+  color: #172b4d;
+  font-size: 32px;
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
 }
 
 .input-1 {
@@ -385,15 +394,10 @@ form h2 {
   border-bottom: 1px solid #dbd8d7;
 }
 
-/* .form-container div{
-justify-items: center;
-} */
-
 .but-1 {
   text-align: center;
   padding: 8px 10px;
   background-color: #ff6b00;
-
   color: #fff;
   border: none;
 }
@@ -408,17 +412,30 @@ textarea {
   border: none;
 }
 
-input[type="textarea"]::placeholder {
-  margin-right: -20px;
-}
-
-.social-footer {
+.socialhandles {
+  margin-top: 100px;
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
 }
 
+.linebtn {
+  height: 1px;
+  border: none;
+  background: #dfe1e6;
+  margin-top: 40px;
+  margin-bottom: -60px;
+}
+
+.socialhandles svg path {
+  fill: #505f79;
+}
+
 .trial {
   color: red;
+}
+
+.input-1 input {
+  margin-left: -20px;
 }

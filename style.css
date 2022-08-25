@@ -124,7 +124,7 @@ a.bt {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(./images/ImgPlaceholder\(2\).svg)center center;
+    url(./images/ImgPlaceholder\(2\).svg) center center;
   padding-top: 50px;
   color: #fff;
 }

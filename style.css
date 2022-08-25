@@ -27,6 +27,7 @@ a {
   display: flex;
   justify-content: center;
   border-bottom: 2px solid black;
+  padding-bottom: 10%;
 }
 
 .cx {
@@ -124,7 +125,7 @@ a.bt {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(./placeholders/Img\ Placeholder1.svg) center center;
+    url(./placeholders/Img\ Placeholder2.svg) center center;
   padding-top: 50px;
   color: #fff;
 }
@@ -326,7 +327,7 @@ ul {
 }
 
 .vec1-img {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .btn3 {
@@ -395,6 +396,9 @@ form h2 {
 }
 
 .big h2 {
+  text-align: center;
+  padding: 1rem;
+  width: 90%;
   color: #172b4d;
   font-size: 32px;
   font-family: "inter", sans-serif;
@@ -461,6 +465,10 @@ textarea {
   display: none;
 }
 
+.linenew1 {
+  display: none;
+}
+
 @media (min-width: 760px) {
   .big {
     margin-top: 5%;
@@ -469,6 +477,7 @@ textarea {
   }
 
   .kk {
+    overflow: hidden;
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -478,9 +487,16 @@ textarea {
   }
 
   .jobs {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
     border-bottom: none;
     transition-delay: 0.4s;
     transition-duration: 0.5s;
+    margin-top: 20px;
+    padding-bottom: none;
   }
 
   .jobs:hover {
@@ -518,10 +534,6 @@ textarea {
 
   .menu1 li {
     text-align: right;
-  }
-
-  .lan2 li {
-    text-align: left;
   }
 
   .lang li:hover {
@@ -603,6 +615,9 @@ textarea {
 
   .languages ul {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .hello {
@@ -613,6 +628,10 @@ textarea {
   .head-1 {
     font-size: 28px;
   }
+
+  /* .lan2 li{
+    text-align: left;
+  } */
 
   .aboutme-container {
     background-size: 300px;
@@ -683,5 +702,45 @@ textarea {
 
   .head-2 {
     font-size: 25px;
+  }
+
+  .big h2 {
+    width: 35%;
+  }
+
+  .but-1 {
+    text-align: left;
+    margin-left: -200px;
+    background-color: #ff6b00;
+    color: #fff;
+    border: none;
+  }
+
+  .btn99 {
+    margin-left: -22%;
+  }
+
+  .socialhandles {
+    padding-left: 350px;
+  }
+
+  .kk {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+  }
+
+  .linenew1 {
+    float: right;
+    width: 70%;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .jobs {
+    border-bottom: none;
+    padding-bottom: 0;
   }
 }

@@ -45,14 +45,6 @@ a {
   color: #091e42;
 }
 
-.menu1 li {
-  text-align: right;
-}
-
-.lan2 li {
-  text-align: left;
-}
-
 .lang {
   display: flex;
   align-items: center;
@@ -132,7 +124,7 @@ a.bt {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url(./placeholders/Img\ Placeholder3.svg)  center center;
+    url(./placeholders/Img\ Placeholder1.svg) center center;
   padding-top: 50px;
   color: #fff;
 }
@@ -403,7 +395,6 @@ form h2 {
 }
 
 .big h2 {
-  width: 35%;
   color: #172b4d;
   font-size: 32px;
   font-family: "inter", sans-serif;
@@ -421,7 +412,7 @@ form h2 {
 }
 
 .but-1 {
-  text-align: left;
+  text-align: center;
   padding: 8px 10px;
   background-color: #ff6b00;
   color: #fff;
@@ -487,15 +478,9 @@ textarea {
   }
 
   .jobs {
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
     border-bottom: none;
     transition-delay: 0.4s;
     transition-duration: 0.5s;
-    margin-top: 20px;
   }
 
   .jobs:hover {
@@ -529,6 +514,14 @@ textarea {
 
   .lang li {
     transition: 0.5s;
+  }
+
+  .menu1 li {
+    text-align: right;
+  }
+
+  .lan2 li {
+    text-align: left;
   }
 
   .lang li:hover {
@@ -691,31 +684,4 @@ textarea {
   .head-2 {
     font-size: 25px;
   }
-
-  .but-1 {
-    text-align: left;
-    padding: 8px 10px;
-    background-color: #ff6b00;
-    color: #fff;
-    border: none;
-  }
-  .btn99{
-    margin-left: -22%;
-  }
-  .socialhandles{
-    padding-left: 325px;
-  }
-  .kk {
-   
-    display: flex;
-    align-items: center;
-    gap: 1%;
-  }
-  .linenew{
-    width: 20%;
-    display: flex;
-    align-items: center;
-    padding-bottom: 5%;
-  }
 }
-

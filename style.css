@@ -185,6 +185,7 @@ p.bros {
   align-items: center;
   justify-content: space-between;
   color: #fff;
+
 }
 
 .content {
@@ -743,4 +744,23 @@ textarea {
     border-bottom: none;
     padding-bottom: 0;
   }
+}
+
+
+li a{
+  position: relative;
+  transition: all ease-in-out 250ms
+}
+
+li a::after{
+  display: block;
+  height: 0.4em;
+  width: 0%;
+  background-color: #e05304;
+  bottom: -1em;
+  transition: all ease-in-out 250ms;
+}
+
+li a:hover{
+  color:#e05304
 }

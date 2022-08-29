@@ -185,7 +185,6 @@ p.bros {
   align-items: center;
   justify-content: space-between;
   color: #fff;
-
 }
 
 .content {
@@ -243,6 +242,11 @@ p.bros {
 
 ul {
   list-style-type: none;
+}
+
+li a {
+  position: relative;
+  transition: all ease-in-out 250ms;
 }
 
 .nav a {
@@ -746,13 +750,7 @@ textarea {
   }
 }
 
-
-li a{
-  position: relative;
-  transition: all ease-in-out 250ms
-}
-
-li a::after{
+li a::after {
   display: block;
   height: 0.4em;
   width: 0%;
@@ -761,6 +759,6 @@ li a::after{
   transition: all ease-in-out 250ms;
 }
 
-li a:hover{
-  color:#e05304
+li a:hover {
+  color: #e05304;
 }

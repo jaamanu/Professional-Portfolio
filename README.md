@@ -20,8 +20,6 @@ figma
 ### Setup
 copy the url to your local https://github.com/jaamanu/Project.git
 
-### Live Demo 
-[Live Demo](https://jaamanu.github.io/Professional-Portfolio/)
 
 ## JAMES ASIBEY MANU
 

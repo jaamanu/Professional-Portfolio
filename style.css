@@ -761,29 +761,25 @@ textarea {
     color: #e05304;
   }
 
-  li a:hover::after{
-    width:60%
-
-}
-
-  .main{
-    font-size: 90px;
-    font-weight: 500;
-    
+  li a:hover::after {
+    width: 60%;
   }
 
-  .nav h4{
+  .main {
+    font-size: 90px;
+    font-weight: 500;
+  }
+
+  .nav h4 {
     font-size: x-large;
     margin-left: -60px;
   }
-  h4 a:hover{
+
+  h4 a:hover {
     color: #e05304;
   }
-  .nav h4 a{
+
+  .nav h4 a {
     transform: scaleX(0.7);
   }
 }
-
-
-
-

@@ -577,7 +577,9 @@ textarea {
 
   .menu1 {
     display: flex;
-    gap: 10px;
+    gap: 15px;
+    padding-left: 600px;
+    font-size: larger;
   }
 
   .content {
@@ -634,10 +636,6 @@ textarea {
     font-size: 28px;
   }
 
-  /* .lan2 li{
-    text-align: left;
-  } */
-
   .aboutme-container {
     background-size: 300px;
     padding-left: 24px;
@@ -652,11 +650,12 @@ textarea {
 @media (min-width: 1024px) {
   .aboutme-container {
     text-align: left;
-    background-image: url('./bottom.svg');
+    background-image: url('./images/jamanu1png.png');
     background-position: right;
     background-repeat: no-repeat;
     background-size: 600px;
     padding-left: 10%;
+    margin-right: 10px;
   }
 
   .aboutme-container h2 {
@@ -664,7 +663,7 @@ textarea {
   }
 
   .aboutme-container p {
-    font-size: 25px;
+    font-size: 27px;
     width: 600px;
     line-height: 32px;
     font-weight: 400;
@@ -748,17 +747,43 @@ textarea {
     border-bottom: none;
     padding-bottom: 0;
   }
+
+  li a::after {
+    display: block;
+    height: 0.4em;
+    width: 0%;
+    background-color: #e05304;
+    bottom: -1em;
+    transition: all ease-in-out 250ms;
+  }
+
+  li a:hover {
+    color: #e05304;
+  }
+
+  li a:hover::after{
+    width:60%
+
 }
 
-li a::after {
-  display: block;
-  height: 0.4em;
-  width: 0%;
-  background-color: #e05304;
-  bottom: -1em;
-  transition: all ease-in-out 250ms;
+  .main{
+    font-size: 90px;
+    font-weight: 500;
+    
+  }
+
+  .nav h4{
+    font-size: x-large;
+    margin-left: -60px;
+  }
+  h4 a:hover{
+    color: #e05304;
+  }
+  .nav h4 a{
+    transform: scaleX(0.7);
+  }
 }
 
-li a:hover {
-  color: #e05304;
-}
+
+
+

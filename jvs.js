@@ -22,6 +22,7 @@ menuBtn.addEventListener('click', () => {
     closeMenu();
   }
 });
+
 navLink.forEach((link) => {
   link.addEventListener('click', () => {
     closeMenu();

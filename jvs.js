@@ -12,6 +12,17 @@ function closeMenu() {
   navShown = false;
 }
 
+menuBtn.addEventListener('click', () => {
+  if (!navShown) {
+    nav.classList.add('show-menu');
+    btn.classList.add('menu-active');
+    noScroll.classList.add('no-scroll');
+    navShown = true;
+  } else {
+    closeMenu();
+  }
+});
+
 navLink.forEach((link) => {
   link.addEventListener('click', () => {
     closeMenu();

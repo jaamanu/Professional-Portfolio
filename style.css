@@ -223,14 +223,14 @@ header.limit {
 
 .nav-links {
   padding: 2rem 1.5rem;
-  font-size: 1.5rem;
+  font-size: 32px;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 44px;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  height: 90%;
+  height: 100%;
   background-color: #3c3a39;
 }
 

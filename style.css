@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* .flee {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
 * {
   padding: 0;
   margin: 0;
@@ -28,6 +33,120 @@ body {
 
 ul {
   list-style: none;
+}
+
+.pop {
+  padding: 12px 20px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  height: 100vh;
+  top: 60px;
+  display: none;
+}
+
+.modal img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.modal {
+  padding: 12px 12px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px rgba(99, 99, 99, 0.5);
+  width: 90%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  height: auto;
+  top: 30px;
+}
+
+.modHeader {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.burg {
+  cursor: pointer;
+}
+
+.bur1 {
+  height: 2px;
+  width: 16px;
+  background: #6f6c6b;
+  margin: 4px 0;
+  transform: rotate(45deg) translateY(5px);
+}
+
+.bur2 {
+  opacity: 0;
+}
+
+.bur3 {
+  height: 2px;
+  width: 16px;
+  background: #6f6c6b;
+  margin: 4px 0;
+  transform: rotate(-45deg) translateY(-5px);
+}
+
+.lang2 li {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #1c1a19;
+  padding: 6px 10px;
+  display: flex;
+}
+
+.lang2 {
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.mod {
+  height: 300px;
+}
+
+.p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 20px;
+}
+
+.see {
+  gap: 10px;
+  margin-bottom: 20px;
+  align-content: center;
+  display: flex;
+}
+
+.see li {
+  padding: 8px 16px;
+  background: #e05304;
+}
+
+.white {
+  color: #fff;
+}
+
+.second {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .button {
@@ -223,14 +342,14 @@ header.limit {
 
 .nav-links {
   padding: 2rem 1.5rem;
-  font-size: 32px;
+  font-size: 1.5rem;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   line-height: 44px;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  height: 100%;
+  height: 90%;
   background-color: #3c3a39;
 }
 
@@ -719,9 +838,111 @@ form input[type="submit"] {
     background-position: right bottom -11.9%;
     background-size: 39.1333% 59.9333%;
   }
+
+  .pop {
+    padding: 12px 20px 30px 20px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    margin-bottom: 10px;
+    top: 10px;
+    display: none;
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 365px) {
+  .second {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .pop {
+    padding: 12px 20px 30px 20px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    margin-bottom: 10px;
+    top: 10px;
+    display: none;
+    overflow: scroll;
+  }
+
+  .modal {
+    padding: 12px 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px rgba(99, 99, 99, 0.5);
+    width: 90%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .modHeader {
+    font-size: 24px;
+  }
+
+  .mod {
+    height: 200px;
+    width: auto;
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .modHeader {
+    padding-left: 3%;
+  }
+
+  .modal img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .burg {
+    padding-right: 3%;
+  }
+
+  .pop {
+    top: 30px;
+    z-index: 1;
+    height: 100vh;
+  }
+
+  .lang2 {
+    padding-left: 3%;
+  }
+
+  .flexit {
+    display: flex;
+  }
+
+  .flexit div {
+    flex: 1;
+  }
+
+  .mod {
+    padding-left: 5%;
+    height: auto;
+    width: auto;
+  }
+
+  .vie p {
+    width: 70%;
+    padding-left: 7%;
+  }
+
+  .see {
+    padding-left: 7%;
+  }
+
   .limit {
     padding-inline: 0;
   }
@@ -1266,5 +1487,10 @@ form input[type="submit"] {
   .about-main-container {
     background-position: left 109% top 35.8%;
     background-size: 45.75% 29.5208%;
+  }
+
+  .vie p {
+    width: 90%;
+    padding-left: 7%;
   }
 }

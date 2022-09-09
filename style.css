@@ -833,7 +833,7 @@ form input[type="submit"] {
 
 /* ___________________________Media Queries Section______________________________ */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 760px) {
   .master-img {
     background-position: right bottom -11.9%;
     background-size: 39.1333% 59.9333%;
@@ -883,6 +883,7 @@ form input[type="submit"] {
     background: #fff;
     height: auto;
     padding-bottom: 40px;
+    overflow: scroll;
   }
 
   .modHeader {

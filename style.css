@@ -45,6 +45,13 @@ ul {
   display: none;
 }
 
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
 .modal img {
   width: 100%;
   margin-bottom: 20px;
@@ -206,13 +213,6 @@ h2 {
 
 h3 {
   font-family: "Roboto", sans-serif;
-}
-
-img,
-picture,
-svg {
-  max-width: 100%;
-  display: block;
 }
 
 input,

@@ -25,9 +25,9 @@ copy the url to your local https://github.com/jaamanu/Project.git
 
 ## JAMES ASIBEY MANU
 
-- GitHub: [https://github.com/jaamanu](https://github.com/jaamanu)
-- Twitter: [@JamesAsibeyManu](https://twitter.com/JamesAsibeyManu)
-- LinkedIn: (https://www.linkedin.com/in/james-asibey-manu-a41b1430/)
+-GitHub:https://github.com/jaamanu
+-Twitter:@JamesAsibeyManu
+-LinkedIn:(https://www.linkedin.com/in/jamesasibeymanu)
 
 ## Mudasir Sherwani
 

@@ -1,5 +1,5 @@
 # Professional-Portfolio
-My Portfolio
+This is a responsive website that navigates from the home page to the about page, following mobile first principels
 
 ## Built With
 
